@@ -26,6 +26,7 @@
               clang-tools
               gdb
               gnumake
+              python3
             ];
           };
       }
