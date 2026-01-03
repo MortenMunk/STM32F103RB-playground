@@ -15,3 +15,11 @@ Then run below command, and substitute with your STM32 (I use the STM32F103RB fo
 cd libopencm3
 make TARGETS=stm32/f1
 ```
+
+### LSP errors in Neovim on Nixos?
+
+Run below command inside `app` dir, to generate LSP file.
+
+```bash
+bear -- make
+```
