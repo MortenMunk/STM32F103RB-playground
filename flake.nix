@@ -27,6 +27,7 @@
               gdb
               gnumake
               python3
+              bear
             ];
           };
       }
