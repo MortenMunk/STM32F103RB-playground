@@ -28,6 +28,7 @@
               gnumake
               python3
               bear
+              glibc_multi
             ];
           };
       }
