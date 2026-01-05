@@ -1,0 +1,4 @@
+CompileFlags:
+  Add:
+    - -Iinc
+    - -I../libopencm3/include/libopencm3/stm32
