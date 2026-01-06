@@ -17,7 +17,7 @@ static void rcc_setup(void) {
 
 static uint64_t get_ticks(void) { return ticks; }
 
-static void systick_setup() {
+static void systick_setup(void) {
   systick_set_frequency(SYSTICK_FREQ, CPU_FREQ);
   systick_counter_enable();
   systick_interrupt_enable();
