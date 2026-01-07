@@ -8,8 +8,8 @@
 
 static void gpio_setup(void) {
   rcc_periph_clock_enable(RCC_GPIOA);
-  gpio_set_mode(LED_PORT, GPIO_MODE_OUTPUT_2_MHZ, GPIO_CNF_OUTPUT_PUSHPULL,
-                LED_PIN);
+  gpio_set_mode(LED_PORT, GPIO_MODE_OUTPUT_50_MHZ,
+                GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, LED_PIN);
 }
 
 int main(void) {
