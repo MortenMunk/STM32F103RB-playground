@@ -31,6 +31,7 @@ int main(void) {
         duty_cycle = 0.0f;
       }
 
+      timer_pwm_set_duty_cycle(duty_cycle);
       start_time = system_get_ticks();
     }
   }

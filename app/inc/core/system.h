@@ -3,7 +3,7 @@
 
 #include "common-defines.h"
 
-#define CPU_FREQ (64000000)
+#define CPU_FREQ (72000000)
 #define SYSTICK_FREQ (1000)
 
 void system_setup(void);

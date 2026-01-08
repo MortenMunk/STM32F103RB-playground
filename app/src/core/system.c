@@ -8,7 +8,7 @@ static volatile uint64_t ticks = 0;
 void sys_tick_handler(void) { ticks++; }
 
 static void rcc_setup(void) {
-  rcc_clock_setup_pll(&rcc_hsi_configs[RCC_CLOCK_HSI_64MHZ]);
+  rcc_clock_setup_pll(&rcc_hse_configs[RCC_CLOCK_HSE8_72MHZ]);
 }
 
 static void systick_setup(void) {
